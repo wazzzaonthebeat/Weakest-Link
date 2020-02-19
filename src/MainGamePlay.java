@@ -8,22 +8,15 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class MainGamePlay extends Round {
-
-	
-	
-	
-
 	private static boolean name;
 
 	public MainGamePlay(int aRound,int aCorrect, int aWrong, String aStatus, double aBank, double mBank, boolean menu, boolean name2) {
 		super(aRound, aCorrect, aWrong, aStatus, aBank, mBank,menu);
-		// TODO Auto-generated constructor stub
 	//	super.repaint();
 
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		round = 1;
 		correct = 0;
 		wrong = 0;
